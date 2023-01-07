@@ -72,7 +72,7 @@ for (let i = 0; i < removeItem.length; i++) {
     const removeElement = removeItem[i];
     // console.log(removeElement);
     removeElement.addEventListener("click", function(e){
-        console.log(e);//event mouseevent 
+        // console.log(e);//event mouseevent 
         
          e.target.parentNode.parentNode.parentNode.style.display = "none";
         
